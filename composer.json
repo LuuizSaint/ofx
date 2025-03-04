@@ -1,0 +1,21 @@
+{
+    "name": "saint/ofx",
+    "description": "A .ofx System",
+    "authors": [
+        {
+            "name": "Luu1zSaint",
+            "email": "luizroberto44630@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "files": [
+            "app/helpers/helper.php",
+            "app/routes/routes.php"
+        ]
+    },
+    "require": {}
+}
