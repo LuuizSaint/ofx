@@ -2,10 +2,10 @@
 
 namespace app\controllers;
 
-class HomeController
+class NotFoundController
 {
     public function index()
     {
-        viewExecute('home');
+        var_dump(__CLASS__);
     }
 }
