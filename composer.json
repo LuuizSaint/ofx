@@ -13,6 +13,7 @@
             "app\\": "app"
         },
         "files": [
+            "app/configs/global.php",
             "app/helpers/helper.php"
         ]
     },
